@@ -25,7 +25,8 @@ import com.mhj.spring.login.repository.UserRepository;
 import jakarta.validation.Valid;
 
 //for Angular Client (withCredentials)
-@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "https://mhj-arq-back-production.up.railway.app", maxAge = 3600, allowCredentials="true")
+//@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
 //@CrossOrigin(origins = "*", maxAge = 3600)
 //@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
