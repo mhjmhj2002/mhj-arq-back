@@ -37,7 +37,7 @@ import com.mhj.spring.login.security.services.UserDetailsImpl;
 //for Angular Client (withCredentials)
 //@CrossOrigin(origins = "https://mhj-arq-back-production.up.railway.app", maxAge = 3600, allowCredentials="true")
 //@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
-@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "*", maxAge = 3600)
 //@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
